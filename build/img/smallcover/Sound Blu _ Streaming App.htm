@@ -1,0 +1,2455 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://localhost:3000/help -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Required meta tags -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./Sound Blu _ Streaming App_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Sound Blu | Streaming App</title>
+<style>@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap);</style><style>div.LoginLeft {
+  height: 100vh;
+  background-image: url(/static/media/loginBg.c6c57f22.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 0; }
+  div.LoginLeft div.pattern {
+    padding: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6); }
+  div.LoginLeft div.CoverLogin {
+    padding: 0;
+    height: 100vh; }
+    div.LoginLeft div.CoverLogin img {
+      width: 100%;
+      height: 100%; }
+
+div.Login {
+  font-family: "Roboto", sans-serif; }
+  div.Login div.row div.loginForm {
+    background-color: #3E5563;
+    padding: 0; }
+    div.Login div.row div.loginForm div.content {
+      height: 100vh;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-image: url(/static/media/blurbg.a00f65c7.png);
+      background-size: cover;
+      background-position: center; }
+      div.Login div.row div.loginForm div.content form {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        div.Login div.row div.loginForm div.content form span.error {
+          align-self: flex-start;
+          font-weight: 400;
+          font-size: 12px;
+          letter-spacing: 1px;
+          margin-top: 5px;
+          margin-left: 5px; }
+        div.Login div.row div.loginForm div.content form button {
+          width: 98%;
+          margin-top: 20px;
+          margin-bottom: 30px;
+          border-radius: 3px;
+          background-color: #2AABE4;
+          border: none;
+          padding: 10px 0;
+          cursor: pointer;
+          outline: none; }
+      div.Login div.row div.loginForm div.content span.forgetPassword {
+        text-decoration: underline;
+        color: white;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 300; }
+      div.Login div.row div.loginForm div.content span.register {
+        color: white;
+        font-size: 10px;
+        font-weight: 300;
+        margin-top: 10px;
+        letter-spacing: 1px; }
+        div.Login div.row div.loginForm div.content span.register a {
+          color: white; }
+      div.Login div.row div.loginForm div.content img {
+        margin-bottom: 100px;
+        width: 380px; }
+      div.Login div.row div.loginForm div.content div.socialLogin {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        div.Login div.row div.loginForm div.content div.socialLogin div.text-Content {
+          margin-right: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: nowrap; }
+          div.Login div.row div.loginForm div.content div.socialLogin div.text-Content:nth-of-type(3) {
+            margin-right: 0; }
+          div.Login div.row div.loginForm div.content div.socialLogin div.text-Content div.icon {
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            background-color: #1997CF;
+            border-right: 2px dotted black; }
+            div.Login div.row div.loginForm div.content div.socialLogin div.text-Content div.icon i {
+              font-size: 12px;
+              padding: 6px;
+              border-radius: 50%;
+              border: 2px solid; }
+          div.Login div.row div.loginForm div.content div.socialLogin div.text-Content div.Text {
+            background-color: #2AABE4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            width: 70px;
+            height: 40px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px; }
+
+div.SignUp {
+  font-family: "Roboto", sans-serif; }
+  div.SignUp div.row div.SignUpForm {
+    background-color: #3E5563;
+    padding: 0; }
+    div.SignUp div.row div.SignUpForm div.content {
+      height: 100vh;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-image: url(/static/media/blurbg.a00f65c7.png);
+      background-size: cover;
+      background-position: center; }
+      div.SignUp div.row div.SignUpForm div.content img {
+        width: 370px;
+        margin-bottom: 70px; }
+      div.SignUp div.row div.SignUpForm div.content form {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        div.SignUp div.row div.SignUpForm div.content form span.error {
+          align-self: flex-start;
+          font-weight: 400;
+          font-size: 12px;
+          letter-spacing: 1px;
+          margin-top: 5px;
+          margin-left: 5px; }
+        div.SignUp div.row div.SignUpForm div.content form div.inputs {
+          width: 99%;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column; }
+          div.SignUp div.row div.SignUpForm div.content form div.inputs label {
+            margin-top: 20px;
+            margin-bottom: 0;
+            color: #2AABE4;
+            font-size: 12px; }
+          div.SignUp div.row div.SignUpForm div.content form div.inputs div.input-group {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center; }
+            div.SignUp div.row div.SignUpForm div.content form div.inputs div.input-group input {
+              margin: 4px 0;
+              outline: none;
+              border: none;
+              font-size: 12px;
+              color: white;
+              letter-spacing: 1px;
+              background-color: transparent;
+              width: 95%; }
+              div.SignUp div.row div.SignUpForm div.content form div.inputs div.input-group input::placeholder {
+                letter-spacing: 1px; }
+            div.SignUp div.row div.SignUpForm div.content form div.inputs div.input-group i {
+              color: white; }
+        div.SignUp div.row div.SignUpForm div.content form a {
+          width: 98%;
+          margin-top: 30px;
+          margin-bottom: 30px;
+          border-radius: 3px;
+          background-color: #2AABE4;
+          text-align: center;
+          color: white;
+          text-decoration: none;
+          border: none;
+          padding: 10px 0;
+          cursor: pointer;
+          outline: none; }
+      div.SignUp div.row div.SignUpForm div.content div.TNC {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap; }
+        div.SignUp div.row div.SignUpForm div.content div.TNC label {
+          margin-bottom: 0;
+          margin-right: 10px; }
+        div.SignUp div.row div.SignUpForm div.content div.TNC label.Terms {
+          color: white;
+          font-size: 10px;
+          font-weight: 300;
+          letter-spacing: 1px; }
+      div.SignUp div.row div.SignUpForm div.content span.register {
+        color: white;
+        font-size: 10px;
+        font-weight: 300;
+        margin-top: 30px;
+        letter-spacing: 1px; }
+
+div.StepsContainer {
+  background: radial-gradient(circle, #6e777b 0%, #284a5a 100%);
+  font-family: "Roboto", sans-serif; }
+  div.StepsContainer div.StepBg {
+    min-height: 100vh;
+    height: auto;
+    background-image: url(/static/media/NEWBG.039be8d5.png);
+    background-position: center;
+    background-size: cover;
+    display: block; }
+    div.StepsContainer div.StepBg div.Container {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      div.StepsContainer div.StepBg div.Container h4 {
+        margin-top: 20px;
+        letter-spacing: 1px; }
+      div.StepsContainer div.StepBg div.Container span {
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: .6px; }
+      div.StepsContainer div.StepBg div.Container div.Steps {
+        margin: 20px 0;
+        margin-left: -20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center !important; }
+        div.StepsContainer div.StepBg div.Container div.Steps hr {
+          top: -8.5px;
+          width: 190px;
+          height: 1px;
+          position: relative;
+          margin-block-start: 0;
+          margin-block-end: 0;
+          margin-inline-start: 0;
+          margin-inline-end: 0; }
+        div.StepsContainer div.StepBg div.Container div.Steps div.StepContent {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          flex-direction: column; }
+          div.StepsContainer div.StepBg div.Container div.Steps div.StepContent span {
+            position: relative;
+            top: 20px;
+            font-size: 11px;
+            font-weight: 600; }
+          div.StepsContainer div.StepBg div.Container div.Steps div.StepContent div.Content {
+            padding: 2px;
+            border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%; }
+            div.StepsContainer div.StepBg div.Container div.Steps div.StepContent div.Content div.InnerCircle {
+              width: 44px;
+              height: 44px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center; }
+              div.StepsContainer div.StepBg div.Container div.Steps div.StepContent div.Content div.InnerCircle div.InsideCircle {
+                width: 6px;
+                height: 6px;
+                background-color: white;
+                border-radius: 50%; }
+
+@media (max-width: 768px) {
+  div.Steps hr {
+    top: 0 !important;
+    width: 90px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important; }
+  div.Steps div.StepContent span {
+    display: none !important; } }
+
+input#terms {
+  display: none; }
+
+label#terms {
+  width: 25px;
+  height: 25px;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  label#terms div {
+    border-radius: 50%;
+    width: 80%;
+    height: 80%; }
+
+label.terms {
+  width: 25px;
+  height: 25px;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  label.terms div {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px !important;
+    margin-right: 0; }
+
+div.Fields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px; }
+  div.Fields form {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    div.Fields form div.date {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      div.Fields form div.date label {
+        margin-top: 20px;
+        margin-bottom: 0;
+        color: black;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 12px;
+        align-self: flex-start; }
+      div.Fields form div.date div.Inputs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap; }
+        div.Fields form div.date div.Inputs div.Year {
+          width: 40%; }
+        div.Fields form div.date div.Inputs div.Month {
+          width: 25%; }
+        div.Fields form div.date div.Inputs div.Option {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: nowrap; }
+          div.Fields form div.date div.Inputs div.Option select {
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding-bottom: 5px;
+            border-radius: 0;
+            -webkit-appearance: none;
+               -moz-appearance: none;
+                    appearance: none; }
+            div.Fields form div.date div.Inputs div.Option select option {
+              font-size: 12px;
+              color: white; }
+          div.Fields form div.date div.Inputs div.Option i {
+            color: white; }
+    div.Fields form input#dp {
+      display: none; }
+    div.Fields form label.Image {
+      margin-bottom: 0;
+      cursor: pointer;
+      border-radius: 50%;
+      border: 2px solid #2AABE4;
+      padding: 4px; }
+      div.Fields form label.Image div.Circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        background-color: #3A4A51;
+        border-radius: 50%; }
+        div.Fields form label.Image div.Circle i {
+          color: #2AABE4;
+          font-size: 20px; }
+    div.Fields form span.error {
+      align-self: flex-start;
+      font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 1px;
+      margin-top: 5px;
+      margin-left: 5px; }
+    div.Fields form div.inputs {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column; }
+      div.Fields form div.inputs label {
+        margin-top: 20px;
+        margin-bottom: 0;
+        color: black;
+        font-weight: 500;
+        letter-spacing: 1px;
+        font-size: 12px; }
+      div.Fields form div.inputs div.input-group {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center; }
+        div.Fields form div.inputs div.input-group input {
+          margin: 4px 0;
+          outline: none;
+          border: none;
+          font-size: 12px;
+          color: white;
+          letter-spacing: 1px;
+          background-color: transparent;
+          width: 100%; }
+          div.Fields form div.inputs div.input-group input::placeholder {
+            letter-spacing: 1px;
+            color: rgba(255, 255, 255, 0.4); }
+        div.Fields form div.inputs div.input-group i {
+          color: white; }
+    div.Fields form button {
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      margin-top: 60px;
+      width: 160px;
+      padding: 10px 0;
+      background-color: #2AABE4;
+      border: none;
+      font-size: 14px;
+      border-radius: 5px;
+      outline: none;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
+
+@media (max-width: 768px) {
+  div.Fields form {
+    width: 90%; } }
+
+div.Genres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column; }
+  div.Genres h4 {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 20px; }
+    div.Genres h4:nth-last-of-type(1) {
+      margin-bottom: 10px; }
+  div.Genres div.GenresContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%; }
+    div.Genres div.GenresContainer div.Containers {
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      margin-left: 10px; }
+      div.Genres div.GenresContainer div.Containers div.Check {
+        width: 40px;
+        height: 50px;
+        background-color: #1997CF;
+        border-right: 2px dotted black;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        div.Genres div.GenresContainer div.Containers div.Check label {
+          margin-bottom: 0; }
+      div.Genres div.GenresContainer div.Containers div.Content {
+        width: 80px;
+        height: 50px;
+        background-color: #2AABE4;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        div.Genres div.GenresContainer div.Containers div.Content p {
+          margin: 0;
+          text-transform: capitalize;
+          font-size: 13px;
+          font-weight: 500; }
+
+div.Movies div.Poster {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative; }
+  div.Movies div.Poster img {
+    width: 100%;
+    height: 100%; }
+  div.Movies div.Poster div.Content {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    div.Movies div.Poster div.Content div.Check {
+      width: 90%;
+      height: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-right: 0; }
+      div.Movies div.Poster div.Content div.Check label {
+        margin-bottom: 0; }
+    div.Movies div.Poster div.Content div.Title {
+      height: 80%;
+      width: 100%;
+      margin-right: 0;
+      display: inline-flex;
+      opacity: 0;
+      align-items: flex-start;
+      justify-content: flex-end;
+      flex-direction: column;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+      padding: 0 20px; }
+      div.Movies div.Poster div.Content div.Title span {
+        color: white;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px; }
+      div.Movies div.Poster div.Content div.Title p {
+        color: white;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 10px; }
+
+button.next {
+  width: 220px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: #2AABE4;
+  border: none;
+  padding: 10px 0;
+  cursor: pointer;
+  outline: none; }
+
+.slick-slide div {
+  margin-right: 20px; }
+
+div.Movies .slick-center div div {
+  height: 320px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+  div.Movies .slick-center div div div.Content div.Title {
+    opacity: 1; }
+
+div.Plans {
+  height: auto; }
+  div.Plans div.container {
+    height: auto; }
+    div.Plans div.container div.row {
+      display: flex;
+      align-items: center;
+      height: auto; }
+      div.Plans div.container div.row div.col-12 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 30px; }
+        div.Plans div.container div.row div.col-12 div.content {
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+          border-radius: 5px;
+          width: 80%;
+          height: auto;
+          background-color: #3E5563;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column; }
+          div.Plans div.container div.row div.col-12 div.content header {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 100%;
+            height: 80px;
+            letter-spacing: 1px;
+            background-color: #1997CF;
+            display: flex;
+            align-items: center;
+            justify-content: center; }
+            div.Plans div.container div.row div.col-12 div.content header h4 {
+              margin-bottom: 0; }
+          div.Plans div.container div.row div.col-12 div.content div.Pricing {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            background-color: #3A4A51; }
+            div.Plans div.container div.row div.col-12 div.content div.Pricing div.text {
+              display: flex;
+              align-items: flex-start;
+              justify-content: center; }
+              div.Plans div.container div.row div.col-12 div.content div.Pricing div.text span {
+                font-size: 16px;
+                font-weight: 600;
+                color: #1997CF;
+                position: relative;
+                top: 5px; }
+                div.Plans div.container div.row div.col-12 div.content div.Pricing div.text span:nth-of-type(2) {
+                  align-self: flex-end;
+                  font-weight: 400;
+                  top: -7px;
+                  margin-left: 5px;
+                  font-size: 13px; }
+              div.Plans div.container div.row div.col-12 div.content div.Pricing div.text h1 {
+                margin-left: 5px;
+                margin-bottom: 0;
+                color: #1997CF; }
+          div.Plans div.container div.row div.col-12 div.content div.Content {
+            height: 210px;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            div.Plans div.container div.row div.col-12 div.content div.Content div.text-group {
+              margin-bottom: 10px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: nowrap;
+              width: 100%;
+              border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+              padding-bottom: 3px; }
+              div.Plans div.container div.row div.col-12 div.content div.Content div.text-group p {
+                padding: 0;
+                letter-spacing: .6px;
+                margin: 0;
+                width: 90%;
+                font-size: 12px;
+                color: white; }
+              div.Plans div.container div.row div.col-12 div.content div.Content div.text-group span {
+                text-align-last: right;
+                width: 10%;
+                color: #2AABE4;
+                font-size: 12px; }
+          div.Plans div.container div.row div.col-12 div.content a {
+            color: white;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            outline: none;
+            border: none;
+            background-color: #2AABE4;
+            padding: 12px 0px;
+            width: 70%;
+            border-radius: 3px;
+            position: relative;
+            font-size: 14px;
+            top: 15px; }
+
+div.inputs {
+  width: 99%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column; }
+  div.inputs label {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #2AABE4;
+    font-size: 12px; }
+  div.inputs div.input-group {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center; }
+    div.inputs div.input-group input {
+      margin: 4px 0;
+      outline: none;
+      border: none;
+      font-size: 12px;
+      color: white;
+      letter-spacing: 1px;
+      background-color: transparent;
+      width: 95%; }
+      div.inputs div.input-group input::placeholder {
+        letter-spacing: 1px; }
+    div.inputs div.input-group i {
+      width: 5%;
+      color: white; }
+
+div.MemberPayment {
+  background: radial-gradient(circle, #6e777b 0%, #284a5a 100%);
+  font-family: "Roboto", sans-serif; }
+  div.MemberPayment div.BG {
+    padding-top: 30px;
+    min-height: 100vh;
+    height: auto;
+    background-image: url(/static/media/NEWBG.039be8d5.png);
+    background-position: center;
+    background-size: cover;
+    display: block; }
+    div.MemberPayment div.BG h3 {
+      text-align: center;
+      font-weight: 500;
+      padding-top: 20px; }
+    div.MemberPayment div.BG p {
+      text-align: center;
+      font-weight: 600;
+      margin: 0;
+      padding: 0; }
+    div.MemberPayment div.BG div.container {
+      width: 80%;
+      margin-top: 50px; }
+      div.MemberPayment div.BG div.container div.row div.col-12 {
+        height: auto;
+        margin-top: 15px; }
+        div.MemberPayment div.BG div.container div.row div.col-12 span.error {
+          font-size: 12px; }
+        div.MemberPayment div.BG div.container div.row div.col-12 h6 {
+          margin-bottom: 30px; }
+        div.MemberPayment div.BG div.container div.row div.col-12 div.Content {
+          margin-top: 15px;
+          width: 100%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-between;
+          flex-wrap: nowrap; }
+          div.MemberPayment div.BG div.container div.row div.col-12 div.Content label {
+            color: #1A2930;
+            font-weight: 500; }
+          div.MemberPayment div.BG div.container div.row div.col-12 div.Content input::placeholder {
+            color: rgba(255, 255, 255, 0.5); }
+          div.MemberPayment div.BG div.container div.row div.col-12 div.Content div.CardType {
+            display: flex;
+            padding: 0px 25px 8px 20px;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+          div.MemberPayment div.BG div.container div.row div.col-12 div.Content button {
+            width: 100px;
+            padding: 7px 0;
+            font-size: 12px;
+            font-weight: 500; }
+    div.MemberPayment div.BG div.row footer {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      div.MemberPayment div.BG div.row footer button.Trial {
+        background-color: #2AABE4;
+        width: 240px;
+        font-size: 14px;
+        padding: 10px 0;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4); }
+      div.MemberPayment div.BG div.row footer button:nth-of-type(2) {
+        margin-top: 10px;
+        font-size: 13px; }
+      div.MemberPayment div.BG div.row footer span {
+        font-weight: 500;
+        font-size: 14px;
+        margin-top: 10px; }
+
+div.Panel-Setting {
+  background-color: #1A2930;
+  min-height: 100vh;
+  padding: 0; }
+  div.Panel-Setting div.PanelRow {
+    padding: 0 15px;
+    margin-top: 60px; }
+    div.Panel-Setting div.PanelRow div.Navi {
+      border-right: 1px solid #6F797D;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between; }
+
+div.Panel-Setting div.row div.Navi div.PanelNavigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  div.Panel-Setting div.row div.Navi div.PanelNavigation button {
+    width: 250px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 9px 0;
+    background-color: #6F797D;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500; }
+
+div.Panel-Setting div.row div.Content div.Profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  div.Panel-Setting div.row div.Content div.Profile label {
+    margin: 0;
+    cursor: pointer; }
+    div.Panel-Setting div.row div.Content div.Profile label div.Dp {
+      border: 2px solid #2AABE4;
+      width: 110px;
+      border-radius: 50%;
+      height: 110px;
+      overflow: hidden; }
+  div.Panel-Setting div.row div.Content div.Profile p {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 20px; }
+  div.Panel-Setting div.row div.Content div.Profile span {
+    color: white;
+    font-size: 9px;
+    font-weight: 500;
+    margin-top: 10px;
+    letter-spacing: 1px; }
+  div.Panel-Setting div.row div.Content div.Profile form {
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    div.Panel-Setting div.row div.Content div.Profile form div.passWord {
+      width: 49%; }
+    div.Panel-Setting div.row div.Content div.Profile form div.inputs {
+      margin: 20px 0; }
+    div.Panel-Setting div.row div.Content div.Profile form div.date {
+      margin: 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 49%; }
+      div.Panel-Setting div.row div.Content div.Profile form div.date label {
+        margin-bottom: 2px;
+        color: #2AABE4;
+        font-size: 12px;
+        font-weight: 400;
+        align-self: flex-start; }
+      div.Panel-Setting div.row div.Content div.Profile form div.date div.Inputs {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap; }
+        div.Panel-Setting div.row div.Content div.Profile form div.date div.Inputs div.Year {
+          width: 40%; }
+        div.Panel-Setting div.row div.Content div.Profile form div.date div.Inputs div.Month {
+          width: 25%; }
+        div.Panel-Setting div.row div.Content div.Profile form div.date div.Inputs div.Option {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: nowrap; }
+          div.Panel-Setting div.row div.Content div.Profile form div.date div.Inputs div.Option select {
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding-bottom: 5px;
+            border-radius: 0;
+            -webkit-appearance: none;
+               -moz-appearance: none;
+                    appearance: none; }
+            div.Panel-Setting div.row div.Content div.Profile form div.date div.Inputs div.Option select option {
+              font-size: 12px;
+              color: white; }
+          div.Panel-Setting div.row div.Content div.Profile form div.date div.Inputs div.Option i {
+            color: white; }
+    div.Panel-Setting div.row div.Content div.Profile form div.Button-Group {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+      padding-bottom: 20px; }
+      div.Panel-Setting div.row div.Content div.Profile form div.Button-Group button {
+        color: white;
+        font-size: 14px; }
+        div.Panel-Setting div.row div.Content div.Profile form div.Button-Group button:nth-of-type(1) {
+          width: 220px;
+          background-color: #2AABE4;
+          color: black; }
+
+@media (max-width: 768px) {
+  div.Panel-Setting div.row div.Content div.Profile form {
+    width: 95%; } }
+
+@media (max-width: 530px) and (max-width: 768px) {
+  div.Panel-Setting div.row div.Content div.Profile form div.inputs {
+    width: 100% !important; } }
+
+div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.btn-group {
+    align-self: center;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.btn-group button {
+      outline: none; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.btn-group button:nth-of-type(1) {
+        padding: 6px 0;
+        width: 240px;
+        background-color: #2AABE4;
+        border-radius: 7px; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC label.AccordionLabel {
+    cursor: pointer;
+    background-color: #404F56;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 10px 20px;
+    font-size: 14px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    margin: 0;
+    border-radius: 7px;
+    font-weight: 500; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC label.AccordionLabel:not(:nth-of-type(1)) {
+      margin-top: 12px; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC label.AccordionLabel span {
+      color: black; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC label {
+    margin: 0; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC label.modified {
+    font-size: 13px;
+    margin-left: 5px; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.SubAccount div.slick-slide div {
+    box-shadow: none;
+    width: 100%; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.SubAccount div.Profile {
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 190px; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.SubAccount div.Profile div.Dp {
+      margin-right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+      border: 2px solid #2AABE4;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.SubAccount div.Profile div.Dp img {
+        width: 99%;
+        height: 99%; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.SubAccount div.Profile p {
+      margin: 0;
+      font-size: 13px;
+      letter-spacing: 0;
+      margin-top: 10px; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.SubAccount div.Profile span {
+      cursor: pointer;
+      margin-top: 15px;
+      font-size: 11px;
+      text-decoration: underline;
+      color: #2AABE4; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.AddAccount div.Dp span {
+    text-decoration: none !important;
+    font-size: 60px !important;
+    font-weight: 300;
+    margin: 0 !important;
+    width: 99%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #383939; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.AddAccount input {
+    align-self: flex-start;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3); }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.AddAccount p {
+    color: #2AABE4;
+    align-self: flex-start; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Playback {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Playback span {
+      -webkit-user-select: none;
+         -moz-user-select: none;
+              user-select: none;
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      flex-wrap: nowrap; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Playback span:not(:nth-of-type(1)) {
+        margin-top: 20px; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Playback span label {
+        cursor: pointer;
+        margin-bottom: 0;
+        font-size: 13px;
+        letter-spacing: 1px; }
+        div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Playback span label:nth-of-type(2) {
+          margin-left: 12px; }
+  div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content {
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    color: white;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental {
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental p {
+        margin: 0; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental div.Pin {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental div.Pin input[type=number]::-webkit-inner-spin-button,
+        div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental div.Pin input[type=number]::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0; }
+        div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental div.Pin input {
+          margin: 20px 0;
+          color: white;
+          font-size: 35px;
+          width: 120px;
+          height: 80px;
+          padding-left: 8.5%;
+          outline: none;
+          border-radius: 8px;
+          background-color: #2A383E;
+          border: none; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental span {
+        letter-spacing: 1px;
+        font-size: 13px;
+        margin-bottom: 20px; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental div.inputs div.input-group label {
+        margin-left: 0; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental div.inputs div.input-group input {
+        font-size: 19px;
+        letter-spacing: 2px; }
+        div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.Parental div.inputs div.input-group input::placeholder {
+          font-size: 12px; }
+    div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.content {
+      margin-top: 20px;
+      padding-left: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      width: 49%; }
+      div.Panel-Setting div.row div.Content div.AccountSetting div.row div.ACC div.Content div.content:nth-of-type(even) {
+        padding-left: 60px; }
+
+div.Panel-Setting div.row div.Content div.AccountSetting div.row {
+  margin-top: 0; }
+
+div.styles_overlay__CLSq- {
+  padding: 0; }
+  div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w {
+    background-color: #171D20;
+    padding: 0 !important;
+    border: 2px solid #2AABE4;
+    color: white;
+    width: 100%; }
+    div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.heading {
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.heading h5 {
+        margin-bottom: 0;
+        width: 90%;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding-left: 55px;
+        text-align: center; }
+      div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.heading i {
+        cursor: pointer;
+        -webkit-user-select: none;
+           -moz-user-select: none;
+                user-select: none;
+        background-color: #242D31;
+        padding: 12px 16px;
+        font-size: 20px;
+        border-radius: 50%;
+        color: #2AABE4; }
+    div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.Profile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.Profile div.Dp {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 2px solid #2AABE4;
+        padding: 3px; }
+      div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.Profile p {
+        margin-top: 15px; }
+      div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.Profile span {
+        font-size: 12px;
+        letter-spacing: 1px; }
+      div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.Profile div.Btns button {
+        outline: none;
+        margin: 20px 0;
+        width: 190px;
+        background-color: #6F797D;
+        color: black; }
+        div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div div.container div.row div.Profile div.Btns button:nth-of-type(1) {
+          background-color: #2AABE4;
+          margin-right: 10px; }
+    div.styles_overlay__CLSq- div.styles_modalCenter__L9F2w div button.styles_closeButton__20ID4 {
+      display: none; }
+
+div.Panel-Setting div.row div.Content div.Billing div.container div.row {
+  margin-top: 0; }
+  div.Panel-Setting div.row div.Content div.Billing div.container div.row div.col-md-10 h5.Same {
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.3); }
+    div.Panel-Setting div.row div.Content div.Billing div.container div.row div.col-md-10 h5.Same span {
+      color: #2AABE4; }
+  div.Panel-Setting div.row div.Content div.Billing div.container div.row div.col-md-10 button.Same {
+    outline: none;
+    margin: 10px 0;
+    background-color: #2AABE4;
+    color: white;
+    font-size: 13px;
+    width: 110px;
+    padding: 5px 0; }
+  div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Head {
+    margin-bottom: 50px; }
+  div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column; }
+    div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment div.btn-group {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+      padding-bottom: 20px; }
+      div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment div.btn-group button {
+        color: white;
+        font-size: 14px;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        background-color: transparent; }
+        div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment div.btn-group button:nth-of-type(1) {
+          margin-right: 10px;
+          width: 200px;
+          padding: 8px;
+          background-color: #2AABE4;
+          color: black; }
+    div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment div.Redeem {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: flex-start; }
+    div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment span#First {
+      margin-top: 25px;
+      color: #738491;
+      font-size: 12px; }
+    div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment div.Card {
+      margin-top: 20px;
+      min-width: 50%;
+      max-width: 100%;
+      width: auto;
+      background-color: #6F797D;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      padding: 10px 12px;
+      border-radius: 4px; }
+      div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment div.Card i {
+        color: white; }
+      div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment div.Card span {
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-left: 10px; }
+    div.Panel-Setting div.row div.Content div.Billing div.container div.row div.Payment button.Same {
+      margin-top: 30px;
+      color: black;
+      width: 130px;
+      font-weight: 500; }
+
+div.Panel-Setting div.row div.Content div.Feedback div.container div.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0; }
+  div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.Head h5.Same {
+    color: white;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.3); }
+  div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG h6 {
+      align-self: flex-start;
+      color: #2AABE4;
+      font-weight: 400;
+      font-size: 12px;
+      letter-spacing: 1px; }
+    div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG input {
+      width: 100%;
+      padding-bottom: 10px;
+      border: none;
+      background-color: transparent;
+      color: white;
+      border-bottom: 1.5px solid rgba(255, 255, 255, 0.3);
+      outline: none; }
+      div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG input::placeholder {
+        color: white;
+        font-size: 12px;
+        letter-spacing: 1px; }
+    div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG textarea {
+      margin-top: 40px;
+      width: 100%;
+      height: 270px;
+      background-color: #3E5563;
+      border: none;
+      font-size: 13px;
+      border-radius: 7px;
+      padding: 10px;
+      outline: none;
+      color: white; }
+      div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG textarea::placeholder {
+        color: #949494;
+        font-size: 13px;
+        letter-spacing: 1px; }
+    div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG u {
+      color: #2AABE4;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      margin-top: 10px; }
+    div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG div.Button-Group {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+      padding-bottom: 20px; }
+      div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG div.Button-Group button {
+        color: white;
+        font-size: 14px; }
+        div.Panel-Setting div.row div.Content div.Feedback div.container div.row div.MSG div.Button-Group button:nth-of-type(1) {
+          width: 220px;
+          background-color: #2AABE4;
+          color: black; }
+
+div.HOMESCREEN {
+  display: flex;
+  min-height: 100vh;
+  max-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  transition: all .5s;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden; }
+  div.HOMESCREEN::before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #000;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, transparent 10%, #000 130%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute; }
+  div.HOMESCREEN div.row {
+    display: flex;
+    align-items: center; }
+    div.HOMESCREEN div.row div.SoundPlay {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      div.HOMESCREEN div.row div.SoundPlay span {
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        letter-spacing: 1px;
+        font-weight: 500; }
+        div.HOMESCREEN div.row div.SoundPlay span i {
+          margin-right: 10px;
+          font-size: 20px; }
+
+@media (max-width: 768px) {
+  div.HOMESCREEN {
+    min-height: 400px !important; }
+    div.HOMESCREEN::before {
+      min-height: 485px !important; } }
+
+nav.MainNav {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  nav.MainNav div.row {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    nav.MainNav div.row div.icons {
+      display: flex;
+      align-content: center;
+      justify-content: center; }
+      nav.MainNav div.row div.icons div.MainIcon {
+        -webkit-user-select: none;
+           -moz-user-select: none;
+                user-select: none;
+        cursor: pointer;
+        margin-right: 10px;
+        position: relative; }
+        nav.MainNav div.row div.icons div.MainIcon:nth-last-of-type(1) {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-wrap: nowrap; }
+          nav.MainNav div.row div.icons div.MainIcon:nth-last-of-type(1) div.Icons {
+            border-color: #2AABE4 !important; }
+        nav.MainNav div.row div.icons div.MainIcon div.Icons {
+          width: 45px;
+          height: 45px;
+          border: 2px solid;
+          border-radius: 50%;
+          border: 2px solid #707070;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          nav.MainNav div.row div.icons div.MainIcon div.Icons div.Inside {
+            width: 90%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #707070; }
+            nav.MainNav div.row div.icons div.MainIcon div.Icons div.Inside img {
+              width: 45%;
+              height: 45%;
+              border-radius: 0; }
+          nav.MainNav div.row div.icons div.MainIcon div.Icons img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%; }
+        nav.MainNav div.row div.icons div.MainIcon p {
+          margin: 0;
+          color: white;
+          font-size: 12px;
+          margin-left: 5px; }
+        nav.MainNav div.row div.icons div.MainIcon i {
+          color: white;
+          font-size: 10px;
+          margin-left: 5px; }
+    nav.MainNav div.row div.NavItem {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap; }
+      nav.MainNav div.row div.NavItem i {
+        font-size: 30px;
+        color: white; }
+      nav.MainNav div.row div.NavItem ul {
+        margin: 0;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        margin-top: 6px; }
+        nav.MainNav div.row div.NavItem ul li {
+          list-style: none;
+          float: left;
+          font-size: 12px;
+          letter-spacing: 1px;
+          font-weight: 500;
+          color: white;
+          text-transform: uppercase;
+          display: flex;
+          align-items: center; }
+          nav.MainNav div.row div.NavItem ul li:not(:nth-of-type(1)) {
+            margin-left: 20px; }
+          nav.MainNav div.row div.NavItem ul li:nth-of-type(1) {
+            border: 1px solid #2AABE4;
+            border-radius: 20px;
+            padding: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer; }
+            nav.MainNav div.row div.NavItem ul li:nth-of-type(1) span {
+              border-radius: 20px;
+              padding: 7px 25px;
+              background-color: #2AABE4; }
+              nav.MainNav div.row div.NavItem ul li:nth-of-type(1) span i {
+                font-size: 12px;
+                margin: 0;
+                margin-left: 5px; }
+
+@media (max-width: 768px) {
+  nav {
+    background-color: #3E5563; }
+    nav div.Logo img {
+      margin-left: -15px !important; }
+    nav div.icons {
+      margin-top: 4px;
+      margin-left: -12px !important; }
+      nav div.icons div.MainIcon {
+        margin: 0 !important; }
+        nav div.icons div.MainIcon div.Icons {
+          width: 26px !important;
+          height: 26px !important; }
+        nav div.icons div.MainIcon:not(:nth-of-type(4)) div.Icons {
+          border: none !important; }
+          nav div.icons div.MainIcon:not(:nth-of-type(4)) div.Icons img {
+            width: 60% !important;
+            height: 60% !important; }
+          nav div.icons div.MainIcon:not(:nth-of-type(4)) div.Icons div.Inside {
+            background-color: transparent !important; } }
+
+div.PopUp {
+  position: absolute;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  left: -118px;
+  opacity: .9; }
+  div.PopUp i {
+    margin: 0 !important;
+    font-size: 30px !important;
+    color: #373737 !important; }
+  div.PopUp div.Content {
+    overflow: hidden;
+    margin-top: -11px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #373737; }
+  div.PopUp div.msgContainer {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: all .5s;
+    flex-wrap: nowrap;
+    border-bottom: 1.5px solid #333333; }
+    div.PopUp div.msgContainer:hover {
+      background-color: #2AABE4;
+      transition: all .5s; }
+    div.PopUp div.msgContainer a {
+      margin: 0 !important;
+      color: white;
+      text-decoration: none;
+      font-size: 12px; }
+    div.PopUp div.msgContainer div.Dp {
+      width: 55px;
+      height: 55px;
+      border: 2px solid #2AABE4;
+      border-radius: 50%; }
+      div.PopUp div.msgContainer div.Dp img {
+        border-radius: 50%; }
+    div.PopUp div.msgContainer div.content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 50%; }
+      div.PopUp div.msgContainer div.content p {
+        margin: 0 !important;
+        font-size: 12px; }
+      div.PopUp div.msgContainer div.content span {
+        font-size: 10px;
+        color: #AFB3BF;
+        letter-spacing: .7px; }
+    div.PopUp div.msgContainer p.time {
+      color: #AFB3BF !important; }
+
+div.drop {
+  top: 43px;
+  margin-top: 0;
+  margin-left: 0;
+  left: 131px; }
+  div.drop div.Content {
+    width: auto; }
+  div.drop div.MenuContainer {
+    border-bottom: 1.5px solid #333333;
+    padding: 10px 50px 10px 20px; }
+    div.drop div.MenuContainer p {
+      margin: 0;
+      color: white;
+      font-size: 12px;
+      letter-spacing: 1px; }
+
+div.userProfile {
+  top: 45px;
+  left: 0; }
+  div.userProfile div.Content {
+    width: auto; }
+  div.userProfile div.msgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 150px; }
+    div.userProfile div.msgContainer img {
+      margin-right: 20px;
+      padding-left: 10px; }
+    div.userProfile div.msgContainer p {
+      margin: 0 !important; }
+
+@media (max-width: 768px) {
+  div.PopUp {
+    margin-top: 10px;
+    margin-left: -100px; }
+    div.PopUp i {
+      margin-left: 187px !important; }
+  div.userProfile {
+    top: 20px; }
+    div.userProfile i {
+      margin-left: 100px !important; }
+    div.userProfile div.msgContainer {
+      width: 130px; } }
+
+nav.bm-item-list {
+  background-color: #3E5563; }
+  nav.bm-item-list div.container-fluid {
+    outline: none !important;
+    padding: 0; }
+    nav.bm-item-list div.container-fluid div.row div.closed {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 20px;
+      outline: none; }
+      nav.bm-item-list div.container-fluid div.row div.closed span {
+        cursor: pointer;
+        outline: none;
+        width: 40px;
+        height: 40px;
+        background-color: #6F797D;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2AABE4; }
+        nav.bm-item-list div.container-fluid div.row div.closed span i {
+          font-size: 22px;
+          color: #2AABE4; }
+    nav.bm-item-list div.container-fluid div.row div.Dp {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      nav.bm-item-list div.container-fluid div.row div.Dp div.ProfileImg {
+        width: 112px;
+        height: 112px;
+        border: 2px solid #2AABE4;
+        border-radius: 50%; }
+        nav.bm-item-list div.container-fluid div.row div.Dp div.ProfileImg img {
+          width: 100%;
+          height: 100%; }
+      nav.bm-item-list div.container-fluid div.row div.Dp span {
+        color: white;
+        letter-spacing: 1px;
+        font-size: 15px;
+        margin-top: 5px; }
+      nav.bm-item-list div.container-fluid div.row div.Dp p {
+        margin: 0;
+        font-size: 12px;
+        letter-spacing: 0;
+        font-weight: 500;
+        color: #999; }
+    nav.bm-item-list div.container-fluid div.row div.MenuItems {
+      margin-top: 30px; }
+      nav.bm-item-list div.container-fluid div.row div.MenuItems ul li {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding: 8px 20px;
+        list-style: none;
+        border-top: 1px solid #2AABE4;
+        transition: all .5s; }
+        nav.bm-item-list div.container-fluid div.row div.MenuItems ul li:hover {
+          background-color: #2AABE4; }
+        nav.bm-item-list div.container-fluid div.row div.MenuItems ul li:nth-last-child(1) {
+          border-bottom: 1px solid #2AABE4; }
+        nav.bm-item-list div.container-fluid div.row div.MenuItems ul li span {
+          width: 85%;
+          color: white;
+          font-weight: 300;
+          letter-spacing: 1px; }
+
+div.bm-burger-button {
+  display: none !important; }
+
+div.homeLeftbar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+  flex-wrap: nowrap; }
+  div.homeLeftbar div.Dp {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #2AABE4;
+    padding: 3px; }
+    div.homeLeftbar div.Dp img {
+      margin-top: 0; }
+  div.homeLeftbar p {
+    margin: 0;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 1px; }
+  div.homeLeftbar span {
+    margin-top: 5px;
+    font-size: 11px;
+    color: white;
+    margin-bottom: 30px; }
+  div.homeLeftbar img {
+    margin-top: 20px; }
+    div.homeLeftbar img:nth-of-type(1) {
+      margin-bottom: 30px; }
+
+.Slide {
+  margin-top: 40px;
+  overflow: hidden;
+  height: 520px; }
+  .Slide div.items {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center; }
+    .Slide div.items span {
+      color: white;
+      font-size: 30px;
+      border-bottom: 1px solid white; }
+    .Slide div.items div.Head {
+      display: none;
+      margin-top: 10px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column; }
+      .Slide div.items div.Head span {
+        font-size: 12px;
+        border: none; }
+        .Slide div.items div.Head span:nth-of-type(3) {
+          width: 55ch;
+          margin-top: 10px; }
+
+.swiper-slide-active {
+  background-color: transparent !important; }
+  .swiper-slide-active span {
+    color: #2AABE4 !important;
+    border-color: #2AABE4 !important; }
+  .swiper-slide-active div.Head {
+    display: flex !important; }
+
+@media (max-width: 768px) {
+  div.Slide {
+    height: 350px !important; } }
+
+div.MovieSlider {
+  background-color: #373737 !important; }
+  div.MovieSlider div.slick-current {
+    height: 100%;
+    position: relative;
+    width: 240px !important; }
+    div.MovieSlider div.slick-current div div.Poster {
+      margin-top: 0 !important;
+      height: 290px !important; }
+  div.MovieSlider div.row div.dropDownMovies {
+    color: white; }
+    div.MovieSlider div.row div.dropDownMovies span {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-top: 20px; }
+      div.MovieSlider div.row div.dropDownMovies span i {
+        font-size: 13px;
+        margin-left: 10px; }
+  div.MovieSlider div.row div.Sliders {
+    padding: 0px;
+    height: 320px;
+    overflow: hidden; }
+    div.MovieSlider div.row div.Sliders div.Poster {
+      position: relative;
+      margin-top: 40px;
+      height: 250px;
+      border: none !important;
+      overflow: hidden; }
+      div.MovieSlider div.row div.Sliders div.Poster div.Content {
+        position: absolute;
+        height: 100%;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        div.MovieSlider div.row div.Sliders div.Poster div.Content header {
+          width: 98%;
+          height: 30%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between; }
+          div.MovieSlider div.row div.Sliders div.Poster div.Content header div.voting {
+            padding: 5px 0;
+            background-color: white;
+            border-radius: 10px;
+            margin-right: 0 !important; }
+            div.MovieSlider div.row div.Sliders div.Poster div.Content header div.voting div.icons {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center; }
+              div.MovieSlider div.row div.Sliders div.Poster div.Content header div.voting div.icons img {
+                width: 18px;
+                height: 18px; }
+                div.MovieSlider div.row div.Sliders div.Poster div.Content header div.voting div.icons img:not(:nth-of-type(1)) {
+                  margin-left: 5px; }
+              div.MovieSlider div.row div.Sliders div.Poster div.Content header div.voting div.icons span {
+                margin-left: 10px;
+                font-weight: 700;
+                font-size: 18px; }
+            div.MovieSlider div.row div.Sliders div.Poster div.Content header div.voting div.Value {
+              width: 100%; }
+              div.MovieSlider div.row div.Sliders div.Poster div.Content header div.voting div.Value p {
+                text-align: center;
+                margin: 0;
+                font-size: 10px;
+                font-weight: 500; }
+          div.MovieSlider div.row div.Sliders div.Poster div.Content header div.Heart {
+            margin-right: 0 !important;
+            border: 2px solid #988479b9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3px;
+            border-radius: 50%; }
+            div.MovieSlider div.row div.Sliders div.Poster div.Content header div.Heart div.Icons {
+              border-radius: 50%;
+              padding: 7px;
+              display: flex;
+              margin-right: 0 !important;
+              background-color: #988479b9; }
+              div.MovieSlider div.row div.Sliders div.Poster div.Content header div.Heart div.Icons i {
+                color: #1A2930;
+                font-size: 20px; }
+        div.MovieSlider div.row div.Sliders div.Poster div.Content footer {
+          width: 98%;
+          height: 65%;
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-between; }
+          div.MovieSlider div.row div.Sliders div.Poster div.Content footer div.User {
+            border-radius: 50%;
+            border: 2px solid #2AABE4;
+            padding: 3px; }
+            div.MovieSlider div.row div.Sliders div.Poster div.Content footer div.User img {
+              border-radius: 50%;
+              width: 35px; }
+          div.MovieSlider div.row div.Sliders div.Poster div.Content footer div.group {
+            margin-right: 0 !important;
+            border: 2px solid #988479b9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3px;
+            border-radius: 50%; }
+            div.MovieSlider div.row div.Sliders div.Poster div.Content footer div.group div.Icons {
+              border-radius: 50%;
+              padding: 7px;
+              display: flex;
+              margin-right: 0 !important;
+              background-color: #988479b9; }
+              div.MovieSlider div.row div.Sliders div.Poster div.Content footer div.group div.Icons img {
+                width: 20px; }
+      div.MovieSlider div.row div.Sliders div.Poster img {
+        height: 100%;
+        width: 100%; }
+
+div.ReviewHome {
+  height: 103vh;
+  width: 50%;
+  position: fixed;
+  left: 50%;
+  z-index: -1;
+  transition: all .6s;
+  opacity: 0;
+  top: 0; }
+  div.ReviewHome div.row {
+    transition: all .6s; }
+    div.ReviewHome div.row div.CoverPhoto {
+      transition: all .6s;
+      width: 100%;
+      height: 350px;
+      background-position: center;
+      background-size: cover;
+      color: white !important;
+      display: flex;
+      align-items: center; }
+      div.ReviewHome div.row div.CoverPhoto div.Content {
+        transition: all .6s;
+        width: 100%;
+        padding: 0 20px;
+        position: relative;
+        z-index: 7;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column; }
+        div.ReviewHome div.row div.CoverPhoto div.Content span.Heading {
+          font-size: 30px;
+          transition: all .6s;
+          border-bottom: 2px solid;
+          margin-bottom: 10px; }
+        div.ReviewHome div.row div.CoverPhoto div.Content div.Head {
+          display: flex;
+          transition: all .6s;
+          align-items: flex-start;
+          justify-content: center;
+          flex-direction: column; }
+          div.ReviewHome div.row div.CoverPhoto div.Content div.Head span {
+            transition: all .6s;
+            margin-top: 5px;
+            font-size: 12px; }
+            div.ReviewHome div.row div.CoverPhoto div.Content div.Head span:nth-of-type(3) {
+              width: 45ch;
+              margin: 10px 0; }
+        div.ReviewHome div.row div.CoverPhoto div.Content div.btnGroup {
+          margin-top: 10px;
+          transition: all .6s; }
+          div.ReviewHome div.row div.CoverPhoto div.Content div.btnGroup a {
+            font-size: 12px;
+            transition: all .6s;
+            font-weight: 500;
+            background-color: #2AABE4; }
+            div.ReviewHome div.row div.CoverPhoto div.Content div.btnGroup a:nth-of-type(2) {
+              margin-left: 10px; }
+      div.ReviewHome div.row div.CoverPhoto::before {
+        content: "";
+        width: 100%;
+        background: linear-gradient(to left, transparent 10%, #000 100%);
+        height: 350px;
+        position: absolute;
+        transition: all .6s;
+        z-index: 6; }
+    div.ReviewHome div.row div.timeLine {
+      padding: 20px;
+      overflow: scroll;
+      width: 100%;
+      background: radial-gradient(circle, rgba(141, 141, 141, 0.3) 0%, rgba(0, 0, 0, 0.8) 100%); }
+      div.ReviewHome div.row div.timeLine div.TimeLineContent {
+        max-height: 393px; }
+        div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          flex-wrap: nowrap; }
+          div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.User {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap; }
+            div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.User img.Dp {
+              border-radius: 50%;
+              margin-left: 20px;
+              border: 2px solid #2AABE4; }
+            div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.User div.Votes {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              color: #81818F; }
+              div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.User div.Votes span {
+                margin: 5px 0; }
+          div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column; }
+            div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post span {
+              margin-left: 10px;
+              color: white; }
+              div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post span.Title {
+                margin-top: 20px;
+                color: #2AABE4;
+                font-size: 12px;
+                font-weight: 500;
+                letter-spacing: 1px; }
+              div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post span.Desc {
+                margin-top: 5px;
+                font-size: 13px;
+                letter-spacing: .6px; }
+                div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post span.Desc b {
+                  margin-left: 10px;
+                  color: #6F797D; }
+            div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post div.Img {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start; }
+              div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post div.Img img {
+                margin-top: 10px;
+                margin-left: 10px;
+                width: 250px;
+                height: 130px; }
+              div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post div.Img div {
+                margin-left: 10px;
+                border: 2px solid #3D4647;
+                border-radius: 50%;
+                height: 35px;
+                width: 35px;
+                padding: 2px; }
+                div.ReviewHome div.row div.timeLine div.TimeLineContent div.row div.Post div.Post div.Img div p {
+                  margin: 0;
+                  width: 100%;
+                  height: 100%;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background-color: #3D4647;
+                  border-radius: 50%; }
+
+div.Loaders {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+div.inAppChat {
+  background-color: #292C33; }
+  div.inAppChat div.content {
+    border-top: 2px solid black;
+    background-color: #1E2126;
+    min-height: 87vh; }
+
+div.inAppChat div.content div.inbox {
+  border-right: 2px solid black; }
+  div.inAppChat div.content div.inbox div.container-fluid {
+    padding: 0; }
+    div.inAppChat div.content div.inbox div.container-fluid div.row div.heading {
+      display: flex;
+      align-items: center;
+      height: 100px;
+      background-color: #292C33; }
+      div.inAppChat div.content div.inbox div.container-fluid div.row div.heading span {
+        margin: 0;
+        margin-left: 20px;
+        color: white;
+        text-decoration: underline;
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 25px; }
+    div.inAppChat div.content div.inbox div.container-fluid div.row div.Search {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      padding: 15px;
+      color: #A4B0B6;
+      border-bottom: 2px solid black; }
+      div.inAppChat div.content div.inbox div.container-fluid div.row div.Search i {
+        font-size: 16px; }
+      div.inAppChat div.content div.inbox div.container-fluid div.row div.Search input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: 100%;
+        font-size: 12px;
+        margin-left: 10px;
+        color: white; }
+    div.inAppChat div.content div.inbox div.container-fluid div.row div.msg {
+      -webkit-user-select: none;
+         -moz-user-select: none;
+              user-select: none;
+      cursor: pointer;
+      padding: 12px 15px;
+      border-bottom: 1px solid black;
+      background-color: #292C33;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: nowrap; }
+      div.inAppChat div.content div.inbox div.container-fluid div.row div.msg div.dp {
+        width: 55px;
+        height: 55px;
+        border: 2px solid #2AABE4;
+        border-radius: 50%; }
+        div.inAppChat div.content div.inbox div.container-fluid div.row div.msg div.dp img {
+          width: 100%;
+          height: 100%;
+          border-radius: 50%; }
+      div.inAppChat div.content div.inbox div.container-fluid div.row div.msg div.title {
+        margin-left: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column; }
+        div.inAppChat div.content div.inbox div.container-fluid div.row div.msg div.title span {
+          color: white;
+          text-transform: capitalize;
+          font-size: 14px;
+          font-weight: 500; }
+        div.inAppChat div.content div.inbox div.container-fluid div.row div.msg div.title p {
+          margin: 0;
+          color: #A4B0B6;
+          font-size: 10px;
+          letter-spacing: .5px; }
+      div.inAppChat div.content div.inbox div.container-fluid div.row div.msg div.time {
+        align-self: flex-start;
+        margin-left: 50px;
+        margin-top: 6px; }
+        div.inAppChat div.content div.inbox div.container-fluid div.row div.msg div.time span {
+          color: #A4B0B6;
+          font-size: 12px; }
+
+div.inAppChat {
+  padding: 0; }
+  div.inAppChat div.content {
+    padding: 0 15px; }
+    div.inAppChat div.content div.inbox div.container-fluid div.row div.msg {
+      padding: 10px; }
+      div.inAppChat div.content div.inbox div.container-fluid div.row div.msg div.dp {
+        width: 40px;
+        height: 40px; }
+
+div.inAppChat div.content div.friends div.container-fluid div.row div.heading {
+  padding: 0 7px;
+  height: 100px;
+  display: flex;
+  align-items: center; }
+  div.inAppChat div.content div.friends div.container-fluid div.row div.heading span {
+    color: white;
+    color: white;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 25px; }
+
+div.inAppChat div.content div.friends div.container-fluid div.row div.user {
+  padding: 15px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  div.inAppChat div.content div.friends div.container-fluid div.row div.user div.dp {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #2AABE4;
+    border-radius: 50%; }
+    div.inAppChat div.content div.friends div.container-fluid div.row div.user div.dp img {
+      width: 100%;
+      height: 100%; }
+  div.inAppChat div.content div.friends div.container-fluid div.row div.user div.name {
+    width: 50%; }
+    div.inAppChat div.content div.friends div.container-fluid div.row div.user div.name p {
+      margin: 0;
+      color: white;
+      font-size: 13px;
+      font-weight: 500; }
+  div.inAppChat div.content div.friends div.container-fluid div.row div.user div.Icons img {
+    margin: 0 5px; }
+
+div.inAppChat div.content div.Chat div.container div.row div.Messages {
+  height: 500px;
+  padding: 10px 0;
+  overflow: scroll; }
+  div.inAppChat div.content div.Chat div.container div.row div.Messages div.container {
+    height: auto; }
+    div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: flex-start; }
+      div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 div.DpTime {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 div.DpTime div.dp {
+          padding: 2px;
+          border-radius: 50%;
+          border: 2px solid #2AABE4;
+          width: 50px;
+          height: 50px; }
+          div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 div.DpTime div.dp img {
+            width: 100%;
+            height: 100%; }
+        div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 div.DpTime span {
+          color: #B2B7C2;
+          font-size: 12px;
+          margin-top: 5px; }
+      div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 div.nameMsg {
+        margin-left: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column; }
+        div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 div.nameMsg span.Name {
+          color: #B2B7C2;
+          font-size: 13px; }
+        div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 div.nameMsg div.Msg {
+          background-color: #2AABE4;
+          color: white;
+          border-radius: 5px;
+          padding: 5px;
+          margin-top: 5px; }
+          div.inAppChat div.content div.Chat div.container div.row div.Messages div.container div.row div.col-12 div.nameMsg div.Msg p {
+            margin: 0;
+            font-size: 12px; }
+
+div.inAppChat div.content div.Chat div.container div.row div.Input {
+  border-top: 1px solid #2AABE4;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap; }
+  div.inAppChat div.content div.Chat div.container div.row div.Input input {
+    background-color: #292C33;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 0;
+    color: white;
+    outline: none;
+    width: 100%;
+    padding-left: 10px; }
+    div.inAppChat div.content div.Chat div.container div.row div.Input input::placeholder {
+      font-size: 12px;
+      letter-spacing: 1px; }
+  div.inAppChat div.content div.Chat div.container div.row div.Input button {
+    outline: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    cursor: pointer;
+    width: 50px;
+    padding: 8px 0;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #292C33; }
+
+div.SearchSection {
+  background-color: #292C33; }
+  div.SearchSection div.SearchRow {
+    background-color: #1E2126;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 0; }
+
+div#Trending {
+  height: 720px;
+  overflow: hidden; }
+  div#Trending .slick-slide div {
+    margin-right: 0 !important; }
+  div#Trending div.row {
+    display: flex;
+    align-content: center;
+    justify-content: center; }
+    div#Trending div.row div.col-12 h6 {
+      color: #B2B7C2;
+      margin: 0; }
+    div#Trending div.row div.MovieContainer div.Movie {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: nowrap; }
+      div#Trending div.row div.MovieContainer div.Movie div.img {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+        width: 130px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 5px; }
+        div#Trending div.row div.MovieContainer div.Movie div.img img {
+          width: 100%;
+          height: 100%; }
+      div#Trending div.row div.MovieContainer div.Movie div.Detail {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center; }
+        div#Trending div.row div.MovieContainer div.Movie div.Detail p {
+          margin: 0;
+          color: white;
+          font-weight: 500;
+          letter-spacing: 1px;
+          font-size: 13px; }
+        div#Trending div.row div.MovieContainer div.Movie div.Detail span {
+          color: #B2B7C2;
+          font-size: 12px;
+          letter-spacing: .6px; }
+          div#Trending div.row div.MovieContainer div.Movie div.Detail span:nth-of-type(1) {
+            margin: 8px 0; }
+
+div#MoviesSearch .slick-next {
+  right: -5px !important; }
+
+div#MoviesSearch div.row div.col-12 h6 {
+  margin: 0px;
+  color: #B2B7C2; }
+
+div#MoviesSearch div.row div.InputSearch {
+  margin-top: 10px; }
+  div#MoviesSearch div.row div.InputSearch div.content {
+    width: 100%;
+    height: 40px;
+    background-color: #292C33;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; }
+    div#MoviesSearch div.row div.InputSearch div.content i {
+      margin-left: 20px;
+      color: #B2B7C2; }
+    div#MoviesSearch div.row div.InputSearch div.content input {
+      width: 75%;
+      height: 100%;
+      margin-left: 10px;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: white; }
+    div#MoviesSearch div.row div.InputSearch div.content div.Dropdown {
+      width: 25%;
+      height: 100%;
+      border-left: 2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap; }
+      div#MoviesSearch div.row div.InputSearch div.content div.Dropdown select {
+        margin-left: 10px;
+        height: 100%;
+        font-size: 12px;
+        color: #B2B7C2;
+        border-radius: 0 !important;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none; }
+
+div#MoviesSearch div.row div.Movies {
+  margin-top: 20px; }
+  div#MoviesSearch div.row div.Movies div.Heading {
+    margin-bottom: 10px; }
+  div#MoviesSearch div.row div.Movies div.Poster {
+    height: 220px;
+    overflow: hidden; }
+    div#MoviesSearch div.row div.Movies div.Poster img {
+      width: 100%;
+      height: 100%; }
+
+div#Help {
+  background-color: #292C33;
+  height: 88vh; }
+  div#Help div#HelpRow {
+    background-color: #1E2126;
+    height: 100%;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    div#Help div#HelpRow div.container div.row {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center; }
+      div#Help div#HelpRow div.container div.row div.col-10 div.row {
+        display: flex; }
+        div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-12 h5 {
+          color: #B2B7C2;
+          letter-spacing: 1px;
+          margin: 0; }
+        div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-12 div.SearchBar {
+          margin-top: 20px;
+          height: 40px;
+          background-color: #292C33;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: nowrap; }
+          div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-12 div.SearchBar i {
+            color: #B2B7C2;
+            font-size: 20px;
+            margin: 0 10px; }
+          div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-12 div.SearchBar input {
+            height: 100%;
+            width: 100%;
+            background-color: transparent;
+            border: none;
+            font-size: 12px;
+            letter-spacing: 1px;
+            color: white; }
+        div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-4 {
+          margin-bottom: -50px;
+          margin-top: 50px;
+          padding: 15px;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          flex-direction: column;
+          height: 200px; }
+          div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-4 h5 {
+            margin: 0; }
+            div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-4 h5:nth-of-type(1) {
+              color: #2AABE4; }
+          div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-4 h6 {
+            color: #B2B7C2;
+            letter-spacing: 1px;
+            font-weight: normal;
+            text-decoration: underline; }
+            div#Help div#HelpRow div.container div.row div.col-10 div.row div.col-4 h6:nth-of-type(1) {
+              margin-top: 30px; }
+
+footer#helpFooter {
+  background-color: #292C33;
+  height: 140px;
+  align-self: flex-end; }
+  footer#helpFooter div.row {
+    align-items: center;
+    justify-content: space-between; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden; }
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px; }
+
+@media (max-width: 768px) {
+  div.container-fluid {
+    padding: 0; }
+    div.container-fluid div.row {
+      padding-right: 15px;
+      padding-left: 15px; } }
+</style><script charset="utf-8" src="./Sound Blu _ Streaming App_files/6.chunk.js"></script><script charset="utf-8" src="./Sound Blu _ Streaming App_files/14.chunk.js"></script><script charset="utf-8" src="./Sound Blu _ Streaming App_files/1.chunk.js"></script><script charset="utf-8" src="./Sound Blu _ Streaming App_files/0.chunk.js"></script><script charset="utf-8" src="./Sound Blu _ Streaming App_files/18.chunk.js"></script><script charset="utf-8" src="./Sound Blu _ Streaming App_files/main.e7392f86fb1b57b812f0.hot-update.js"></script></head>
+
+<body cz-shortcut-listen="true">
+  <div id="root"><div><div class="bm-overlay" style="position: fixed; z-index: 1000; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3); opacity: 0; transform: translate3d(100%, 0px, 0px); transition: opacity 0.3s ease 0s, transform 0s ease 0.3s;"></div><div id="sidebar" class="bm-menu-wrap" style="position: fixed; right: inherit; z-index: 1100; width: 300px; height: 100%; transform: translate3d(-100%, 0px, 0px); transition: all 0.5s ease 0s;"><div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;"><nav class="bm-item-list" style="height: 100%;"><div class="bm-item container-fluid" tabindex="-1" style="display: block;"><div class="row"><div class="col-12 closed"><span><i class="fas fa-times" aria-hidden="true"></i></span></div><div class="col-12 Dp"><div class="ProfileImg"><img src="./Sound Blu _ Streaming App_files/Dp.png" class="img-fluid" alt=""></div><span>Radu Cristian</span><p>View Profile &amp; Settings</p></div><div class="col-12 MenuItems"><ul><li><img src="./Sound Blu _ Streaming App_files/remote.png" alt=""><span>Remote</span></li><li><img src="./Sound Blu _ Streaming App_files/msgg.png" alt=""><span>Message Board</span></li><li><img src="./Sound Blu _ Streaming App_files/msg.png" alt=""><span>Message</span></li><li><img src="./Sound Blu _ Streaming App_files/news.png" alt=""><span>News Feed</span></li><li><img src="./Sound Blu _ Streaming App_files/clock.png" alt=""><span>Schedule a Movie</span></li><li><img src="./Sound Blu _ Streaming App_files/friends.png" alt=""><span>Friends</span></li><li><img src="./Sound Blu _ Streaming App_files/group.png" alt=""><span>Groups</span></li><li><img src="./Sound Blu _ Streaming App_files/gift.png" alt=""><span>Gift Streaming</span></li><li><img src="./Sound Blu _ Streaming App_files/channel.png" alt=""><span>Channels</span></li></ul></div></div></div></nav></div><div><div class="bm-cross-button" style="position: absolute; width: 24px; height: 24px; right: 8px; top: 8px;"><span style="position: absolute; top: 6px; right: 14px;"><span class="bm-cross" style="position: absolute; width: 3px; height: 14px; transform: rotate(45deg);"></span><span class="bm-cross" style="position: absolute; width: 3px; height: 14px; transform: rotate(-45deg);"></span></span><button tabindex="-1" style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; border: none; font-size: 0px; background: transparent; cursor: pointer;">Close Menu</button></div></div></div><div><div class="bm-burger-button" style="z-index: 1000;"><span><span class="bm-burger-bars" style="position: absolute; height: 20%; left: 0px; right: 0px; top: 0%; opacity: 1;"></span><span class="bm-burger-bars" style="position: absolute; height: 20%; left: 0px; right: 0px; top: 40%; opacity: 1;"></span><span class="bm-burger-bars" style="position: absolute; height: 20%; left: 0px; right: 0px; top: 80%; opacity: 1;"></span></span><button style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; border: none; font-size: 0px; background: transparent; cursor: pointer;">Open Menu</button></div></div></div><div class="containe-fluid" id="Help"><nav class="MainNav py-md-5  p-0 col-12"><div class="container-fluid"><div class="row"><div class="Logo col-md-2 col-sm-6 col-6 order-md-0 order-1"><a href="http://localhost:3000/"> <img src="./Sound Blu _ Streaming App_files/logo.png" class="img-fluid ml-md-4 m-0" alt=""></a></div><div class="NavItem col-md-6 col-sm-3 col-3 order-md-1 order-0 justify-content-md-end"><img src="./Sound Blu _ Streaming App_files/bars.png" class="d-md-none d-block img-fluid ml-3" alt=""><ul class="d-md-flex d-none"><li id="drop"><span id="drop">Movies<i id="drop" class="fas fa-chevron-down" aria-hidden="true"></i></span></li><div class="PopUp drop" style="display: none;"><i class="fas fa-caret-up" aria-hidden="true"></i><div class="Content"><div class="MenuContainer"><p>Comedies</p></div><div class="MenuContainer"><p>Sci Fi</p></div><div class="MenuContainer"><p>Action</p></div></div></div><li>tv shows</li><li>web serires</li><li>trailers</li><li>channels</li></ul></div><div class="col-md-4 col-sm-3 col-3 order-2 icons"><div class="MainIcon  order-md-0 order-1"><div class="Icons"><div class="Inside"><img src="./Sound Blu _ Streaming App_files/search.png" alt=""></div></div></div><div class="MainIcon order-md-1 order-0" id="Bell1"><div class="Icons" id="Bell1"><div class="Inside" id="Bell1"><img src="./Sound Blu _ Streaming App_files/bell.png" id="Bell1" alt=""></div></div><div class="PopUp Bell1" style="display: none;"><i class="fas fa-caret-up" aria-hidden="true"></i><div class="Content"><div class="msgContainer"><div class="Dp"><img src="./Sound Blu _ Streaming App_files/msg(1).png" class="img-fluid" alt=""></div><div class="content"><p>Taylor Devis</p><span>Added You As Friend</span></div><p class="time">1:45 PM</p></div><div class="msgContainer"><div class="Dp"><img src="./Sound Blu _ Streaming App_files/msg(1).png" class="img-fluid" alt=""></div><div class="content"><p>Taylor Devis</p><span>Added You As Friend</span></div><p class="time">1:45 PM</p></div><div class="msgContainer"><div class="Dp"><img src="./Sound Blu _ Streaming App_files/msg(1).png" class="img-fluid" alt=""></div><div class="content"><p>Taylor Devis</p><span>Added You As Friend</span></div><p class="time">1:45 PM</p></div></div></div></div><div class="MainIcon d-md-flex d-none" id="Msg1"><div class="Icons" id="Msg1"><div class="Inside" id="Msg1"><img src="./Sound Blu _ Streaming App_files/msg.png" id="Msg1" alt=""></div></div><div class="PopUp Msg1 mt-5" style="display: none;"><i class="fas fa-caret-up" aria-hidden="true"></i><div class="Content"><div class="msgContainer"><div class="Dp"><img src="./Sound Blu _ Streaming App_files/msg(1).png" class="img-fluid" alt=""></div><div class="content"><p>Taylor Devis</p><span>Added You As Friend</span></div><p class="time">1:45 PM</p></div><div class="msgContainer"><div class="Dp"><img src="./Sound Blu _ Streaming App_files/msg(1).png" class="img-fluid" alt=""></div><div class="content"><p>Taylor Devis</p><span>Added You As Friend</span></div><p class="time">1:45 PM</p></div><div class="msgContainer"><div class="Dp"><img src="./Sound Blu _ Streaming App_files/msg(1).png" class="img-fluid" alt=""></div><div class="content"><p>Taylor Devis</p><span>Added You As Friend</span></div><p class="time">1:45 PM</p></div></div></div></div><div class="MainIcon flex-row  order-md-2 order-2" id="userProfile"><div class="Icons" id="userProfile"><img src="./Sound Blu _ Streaming App_files/Dp(1).png" alt="" id="userProfile"></div><p class="d-md-inline d-none" id="userProfile">Radu Cristian</p><i class="fas fa-caret-down" id="userProfile" aria-hidden="true"></i><div class="PopUp userProfile" style="display: none;"><i class="fas fa-caret-up" aria-hidden="true"></i><div class="Content"><div class="msgContainer"><img src="./Sound Blu _ Streaming App_files/settings.png" class="img-fluid" alt=""><a href="http://localhost:3000/profile-setting">Setting</a></div><div class="msgContainer"><img src="./Sound Blu _ Streaming App_files/help.png" class="img-fluid" alt=""><a href="http://localhost:3000/">Help</a></div><div class="msgContainer"><img src="./Sound Blu _ Streaming App_files/exit.png" class="img-fluid" alt=""><a href="http://localhost:3000/">Sign Out</a></div></div></div></div></div></div></div></nav><div class="row" id="HelpRow"><div class="container"><div class="row"><div class="col-10"><div class="row"><div class="col-12"><h5>Help Center</h5></div><div class="col-12"><div class="SearchBar"><i class="fas fa-search" aria-hidden="true"></i><input type="text" placeholder="Search Here...."></div></div><div class="col-4"><h5>My Account</h5><h6>Update Email</h6><h6>Update Password</h6><h6>Cancel Account</h6></div><div class="col-4"><h5>Technical Help</h5><h6>Subtitles</h6><h6>Sound Issues</h6><h6>Playback Issues</h6></div><div class="col-4"><h5>Billing And Subscription</h5><h6>Upgrade / Downgrade</h6><h6>Update Payment Methid</h6><h6>Refunds</h6></div></div></div></div></div><footer class="col-12" id="helpFooter"><div class="container"><div class="row"><h2>Want To Contact Us?</h2></div></div></footer></div></div></div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./Sound Blu _ Streaming App_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="./Sound Blu _ Streaming App_files/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="./Sound Blu _ Streaming App_files/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="./Sound Blu _ Streaming App_files/f20c16f94f.js"></script><link rel="stylesheet" href="./Sound Blu _ Streaming App_files/free.min.css" media="all">
+<script src="./Sound Blu _ Streaming App_files/bundle.js"></script><script src="./Sound Blu _ Streaming App_files/20.chunk.js"></script><script src="./Sound Blu _ Streaming App_files/main.chunk.js"></script>
+
+</body></html>
